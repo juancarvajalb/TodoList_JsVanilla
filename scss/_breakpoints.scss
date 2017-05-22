@@ -1,0 +1,24 @@
+/* Responsive Breakpoints */
+
+
+
+@media (max-width: 992px) {
+  .container-video{
+      margin-top: em(30,16);   
+  }
+
+ header{
+       background-size: em(600,16) , cover;  
+  }
+  .field-notifty {
+      width: 90%;
+      display: inline-table;
+  }
+}
+@media (max-width: 768px) {
+   header{
+       background-size: em(400,16) , cover;  
+  }
+}
+
+

@@ -1,0 +1,38 @@
+.section-list{
+  background-color: $color-background-2;
+  padding: em(40,16) 0;
+
+  h2{
+       margin-bottom: em(30,16);
+  }
+  p{
+       margin-bottom: em(30,16);
+  }
+}
+
+.field-notifty{
+    width: 95%;
+     margin-bottom: em(30,16);
+    input   {
+         padding: em(24.9,16);
+         font-size: em(18,16);
+         border-radius: 10px;
+    }
+    .input-group-btn{
+      font-size: 100%;
+    }
+    .btn-secondary{
+          color: #fff;
+          background-color: $color-secundary;
+          font-size: em(20,16);
+          padding: em(10,16) em(40,16);
+          font-family: 'Raleway', sans-serif;
+          font-weight: bold;
+          border-radius: 10px;
+         
+    }
+     .btn-secondary:hover{
+          background-color: $color-secundary-hover;  
+    }
+}
+

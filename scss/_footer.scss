@@ -1,0 +1,21 @@
+footer{
+    //background-color: $color-background-2;
+    padding: em(60,16) 0;
+    text-align: center;
+
+}
+
+.footer-nav{
+     list-style-type: none;
+     li{
+         margin: em(5,16) em(20,16);
+        display: inline-block;
+         a{
+             color:$color-font2;      
+         }
+         a:hover{
+            color:$color-secundary;
+         }
+     }
+
+}
